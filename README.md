@@ -14,7 +14,7 @@
 
 </div>
 
-LeakLens is a local-first secret exposure scanner written in Rust. It scans filesystems, git working trees, and git history; groups repeated leaks into incidents; attributes first-seen and last-seen commits; scores risk; and generates operator-friendly JSON, HTML, and SARIF output.
+LeakLens is a local-first Rust secret exposure scanner for filesystems, git working trees, and git history, with AWS, GitHub, GitLab, Slack, Discord, OpenAI, Azure, private-key, and generic secret detection, incident grouping, lineage tracking, and JSON/HTML/SARIF reporting.
 
 It is designed to feel sharper and more explainable than a plain regex dump:
 
