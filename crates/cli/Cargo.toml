@@ -1,0 +1,20 @@
+[package]
+name = "leaklens-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "leaklens"
+path = "src/main.rs"
+
+[dependencies]
+anyhow.workspace = true
+clap.workspace = true
+leaklens-ai = { path = "../ai" }
+leaklens-core = { path = "../core" }
+leaklens-detectors = { path = "../detectors" }
+leaklens-reporters = { path = "../reporters" }
+serde.workspace = true
+serde_json.workspace = true
