@@ -1,0 +1,3 @@
+# Ignore example private keys and noisy log directories
+*.pem
+*/logs/*
